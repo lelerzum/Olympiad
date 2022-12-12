@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: Bahnschrift SemiBold;
+}
+p {
+    font-family: Bahnschrift SemiBold;
+}
+li {
+    font-family: Bahnschrift SemiBold;
+}
+.exit {
+    height: 40px;
+    width: 50px;
+    position: absolute;
+    top: 1px;
+    z-index: 1;
+}
+.block1 {
+    background-image: url(img/2.jpg);
+    background-size: cover;
+    height: 500px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text1 {
+    font-size: 100px;
+    text-align: center;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+    position: absolute;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: Bahnschrift SemiBold;
+	background-image: repeating-linear-gradient(-45deg, rgb(229, 193, 160), rgb(117, 93, 57) 5px, rgb(245, 204, 157) 5px, rgb(138, 111, 61) 10px);
+}
+.text2 {
+    text-align: center;
+    font-size: 100px;
+    position: absolute;
+    z-index: 1;
+    font-family: Bahnschrift SemiBold;
+}
+
+.close {
+    background: none;
+    color: black;
+    border: 0;
+  }
+  
+  .open {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    z-index: 2;
+  }
+  .open:target {
+      display: block;
+  }
+  .open > div {
+    position: relative;
+	margin: 10% auto;
+	padding: 5px 15px 10px 15px;
+	border: 1px solid black;
+	border-radius: 10px;
+    background-color: white;
+    width: 500px;
+      height: 500px;
+  }
+  #ft {
+      width: 400px;
+      height: 400px;
+      border: solid black;
+  }
+  .close {
+	font-size: 25px;
+	text-decoration: none;
+	color: rgb(255, 0, 0);
+	margin-left: 480px;
+}
+.close:hover {
+	color: rgb(76, 0, 255);
+	font-size: 30px;
+}
+  .wow {
+      display: grid;
+      grid-template-columns: 100px 100px 100px 100px;
+      grid-gap: 270px;
+      margin-left: 60px;
+  }
+  img {
+      height: 300px;
+      width: 300px;
+  }
+  #pro {
+      display: grid;
+      grid-template-columns: 400px 400px;
+      grid-gap: 300px;
+  }
+  #textt {
+      margin-left: 20px;
+  }
+  .fotto {
+      width: 500px;
+      height: 300px;
+      border: dashed black;
+  }
+  .bottom {
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+    height: 80px;
+    display: flex;
+    align-self: flex-end;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+}
+.i {
+    height: 40px;
+    width: 40px;
+}
+#bottom {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    grid-gap: 30px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+#bot {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: Bahnschrift SemiBold;
+}
+.blockk2 {
+    display: flex;
+    justify-content: flex-end;
+}
+.blockk1 {
+    position: absolute;
+}
+.div1 {
+    width: 200px;
+    background-color: coral;
+    position: relative;
+    left: 180px;
+    top: -80px;
+    z-index: 1;
+}
+.div2 {
+    width: 200px;
+    height: 60px;
+    background-color: coral;
+    position: relative;
+    top: 200px;
+    left: 55px;
+    z-index: 1;
+}
